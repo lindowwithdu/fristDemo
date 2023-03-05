@@ -1,6 +1,5 @@
 package com.Javaapp;
 
-
 public class Hello {
     public static void main(String[] args) {
         System.out.println("hello,world2");
@@ -12,5 +11,6 @@ public class Hello {
         user.setPassword("123");
         user.setAge(20);
         System.out.println(user);
+        System.out.println(System.currentTimeMillis());
     }
 }
