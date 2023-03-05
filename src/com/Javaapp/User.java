@@ -5,6 +5,22 @@ public class User {
     private String password;
     private int age;
 
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
     public String getName() {
         return name;
     }
@@ -15,9 +31,10 @@ public class User {
 
     @Override
     public String toString() {
-        return "two{" +
+        return "User{" +
                 "name='" + name + '\'' +
                 ", password='" + password + '\'' +
+                ", age=" + age +
                 '}';
     }
 }
